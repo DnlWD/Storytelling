@@ -16,7 +16,6 @@ html {
 }
 
 #landing {
-    position: fixed;
     z-index: +3;
     opacity: 1.0;
 }
@@ -97,6 +96,19 @@ section {
     border-left: 48px solid transparent;
     border-right: 48px solid transparent;
     border-top: 20px solid #e1f5fc;
+}
+
+.backstage {
+    background-color: #efe8d4;
+    bottom: -100px;
+}
+
+.backstage .arrow-down {
+    background-color: transparent;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-top: 20px solid #efe8d4;
+    bottom: -20px!important;
 }
 
 blockquote {
@@ -181,7 +193,6 @@ article {
     height: 720px;
     width: 60vw;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
 }
 
@@ -189,8 +200,7 @@ article {
     background-image: none;
     background-color: black;
     z-index: +1;
-    min-width: 650vw;
-    position: fixed;
+    min-width: 405vw;
     top: 0;
     left: 0;
 }
@@ -207,11 +217,9 @@ p {
     position: absolute;
 }
 
-
-/*#uno {
+#uno {
     background-image: url(../img/001.png);
-    background-position: 0% 57%;
-}*/
+}
 
 #uno p {
     top: 10px;
@@ -249,10 +257,8 @@ p {
 
 #duea {
     width: 30vw;
-    /*
     background-color: black;
     background-image: url(../img/002.png);
-    background-position: 150% 57%;*/
 }
 
 #duea .dialog {
@@ -280,14 +286,15 @@ p {
     position: absolute;
     bottom: 0;
     transform: translateX(-50%);
+    background-image: url(../img/002.png);
+    background-position: 2% 47%;
 }
 
 #dueb {
     width: 30vw;
-    /*
     background-color: black;
     background-image: url(../img/002.png);
-    background-position: 150% 57%;*/
+    background-position: right;
 }
 
 #dueb .dialog {
@@ -306,6 +313,11 @@ p {
     position: static;
 }
 
+#tre {
+    background-color: black;
+    background-image: url(../img/003.png);
+}
+
 #tre .dialog {
     height: 55px;
     width: 60%;
@@ -321,7 +333,18 @@ p {
 }
 
 #quattro {
+    background-color: black;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(../img/004.png);
     width: 30vw;
+}
+
+#cinque {
+    background-image: url(../img/005.png);
+    margin-top: 100px;
+    height: 620px;
+    background-size: cover;
 }
 
 #cinque .dialog {
@@ -335,5 +358,202 @@ p {
 }
 
 #sei {
+    background-image: url(../img/006.png);
+    background-position: bottom center;
+    background-size: 150%;
+    height: 620px;
     width: 30vw;
+}
+
+#sei p {
+    top: 15px;
+    left: 20px;
+    right: 20px;
+}
+
+#sei .dialog {
+    height: 70px;
+}
+
+#sei .down-right {
+    height: 150px;
+    width: 105%;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+}
+
+#sei h6 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#sette {
+    background-image: url(../img/007.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 550px;
+}
+
+#sette p {
+    top: 9px;
+    left: 20px;
+    right: 20px;
+}
+
+#sette .dialog {
+    height: 55px;
+    width: 60%;
+}
+
+.ellisse {
+    background-color: #efe8d4;
+    position: absolute;
+    border-radius: 50%;
+    padding: 50px;
+    top: 30%;
+    left: 50%;
+    color: black;
+    z-index: +1;
+}
+
+.freccia {
+    position: absolute;
+    bottom: -70px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 200px solid #efe8d4;
+    z-index: -3;
+    transform: rotate(60deg);
+}
+
+.ellisse2 {
+    background-color: #efe8d4;
+    position: absolute;
+    border-radius: 50%;
+    padding: 50px;
+    top: 37%;
+    right: 50%;
+    color: black;
+    z-index: +1;
+}
+
+.freccia2 {
+    position: absolute;
+    bottom: -70px;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 200px solid #efe8d4;
+    z-index: -3;
+    transform: rotate(-60deg);
+}
+
+.ellisse3 {
+    font-size: 21pt;
+    width: 350px;
+    height: 200px;
+    background-color: #efe8d4;
+    position: absolute;
+    border-radius: 50%;
+    padding: 45px;
+    top: 25%;
+    right: 85%;
+    color: black;
+    z-index: +1;
+}
+
+.freccia3 {
+    position: absolute;
+    bottom: -70px;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 200px solid #efe8d4;
+    z-index: -3;
+    transform: rotate(-60deg);
+}
+
+.ellisse4 {
+    background-color: #efe8d4;
+    position: absolute;
+    border-radius: 50%;
+    padding: 40px;
+    width: 250px;
+    top: 15%;
+    left: 26%;
+    color: black;
+    z-index: +1;
+}
+
+.freccia4 {
+    position: absolute;
+    bottom: -40px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 150px solid #efe8d4;
+    z-index: -3;
+    transform: rotate(45deg);
+}
+
+.ellisse5 {
+    background-color: #efe8d4;
+    position: absolute;
+    border-radius: 50%;
+    padding: 40px;
+    width: 250px;
+    top: 25%;
+    right: 28%;
+    color: black;
+    z-index: +1;
+}
+
+.freccia5 {
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 150px solid #efe8d4;
+    z-index: -3;
+    transform: rotate(-60deg);
+}
+
+.ellisse6 {
+    background-color: #efe8d4;
+    position: absolute;
+    border-radius: 50%;
+    padding: 40px;
+    width: 250px;
+    top: 55%;
+    right: 47%;
+    color: black;
+    z-index: +1;
+}
+
+.freccia6 {
+    position: absolute;
+    top: -50px;
+    right: 80px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 150px solid #efe8d4;
+    z-index: -3;
+    transform: rotate(-120deg);
 }
