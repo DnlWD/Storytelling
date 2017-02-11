@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+@font-face {
+    font-family: actionman;
+    src: url(../fonts/actionman.otf);
+}
+
+html {
+    font-family: actionman;
+    position: relative;
+    text-transform: uppercase;
+    color: #e1f5fc;
+}
+
+.ravi {
+    font-family: 'Ravi Prakash', cursive;
+}
+
+#landing {
+    /*position: fixed;*/
+    z-index: +3;
+    opacity: 1.0;
+}
+
+h1 {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 48pt;
+    color: #fcc2a1;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 36pt;
+}
+
+h3 {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 24pt;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+h4 {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 21pt;
+    margin-left: 100px;
+}
+
+#landing h1 {
+    color: #e0f5fc;
+    font-family: actionman;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.sound {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #e1f5fc;
+    z-index: +100;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e1f5fc;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    border-top: 20px solid #e1f5fc;
+}
+
+blockquote {
+    float: right;
+    font-size: 30px;
+    display: block;
+    width: 50vw;
+    color: #495a96;
+    background: #e0f5fc;
+    border-left: 10px solid #9fa8c9;
+    padding: 0.5em 10px;
+}
+
+.colori {
+    height: 250px;
+    width: 20%;
+    float: left;
+}
+
+.coluno {
+    background-color: #9fa8c9;
+}
+
+.coldue {
+    background-color: #495a96;
+}
+
+.coltre {
+    background-color: #e0f5fc;
+}
+
+.colquattro {
+    background-color: #fcc2a1;
+}
+
+.colcinque {
+    background-color: #c9a89f;
+}
+
+.pers {
+    height: 65vh;
+    width: 30%;
+    float: left;
+    margin-right: 3.3%;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.progr img {
+    width: 10%;
+    margin-right: 2.8%;
+}
+
+.progr img:last-of-type {
+    margin-right: 0;
+}
+
+.persuno {
+    background-image: url(../img/pers/00nip.png);
+}
+
+.persdue {
+    background-image: url(../img/pers/01fig.png);
+}
+
+.perstre {
+    background-image: url(../img/pers/02pad.png);
+}
+
+.test {
+    height: 100000vh;
+}
+
+article {
+    margin-left: 60px;
+    background-color: #111e34;
+    float: left;
+    height: 720px;
+    width: 960px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#storia {
+    background-image: none;
+    background-color: black;
+    z-index: +1;
+    min-width: 650vw;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+}
+
+h6 {
+    color: black;
+    font-size: 30pt;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+p {
+    font-size: 14pt;
+    position: absolute;
+    top: 15px;
+}
+
+
+/*#uno {
+    background-image: url(../img/001.png);
+    background-position: 0% 57%;
+}*/
+
+.dialog {
+    height: 55px;
+    width: 60%;
+    background-color: #efe8d4;
+}
+
+#due {
+    width: 480px;
+    /*
+    background-color: black;
+    background-image: url(../img/002.png);
+    background-position: 150% 57%;*/
+}
