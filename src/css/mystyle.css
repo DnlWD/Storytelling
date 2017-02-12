@@ -9,6 +9,8 @@ html {
     position: relative;
     text-transform: uppercase;
     color: #e1f5fc;
+    transition: all 2s linear 1s;
+    overflow-x: hidden;
 }
 
 .ravi {
@@ -188,8 +190,8 @@ img {
     background-image: url(../img/pers/02pad.png);
 }
 
-.test {
-    height: 100000vh;
+.storiaend {
+    height: 27500px;
 }
 
 article {

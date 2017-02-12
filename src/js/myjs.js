@@ -12,10 +12,19 @@ tag.addEventListener('click', function (e) {
     }
     e.preventDefault();
 }, false);
+
+function opacita(nome, scroll, indice) {
+    if (scroll > indice) {
+        $(nome).css({
+            'opacity': -((indice + 100) - scroll) / 100
+        });
+    }
+}
 //passiamo allo scroll "Orizzontale"
 $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
+        console.log(scroll);
         $('#landing').css({
             'opacity': (100 - scroll) / 100
         });
@@ -23,27 +32,32 @@ $(document).ready(function () {
             $('#storia').css({
                 position: 'fixed'
             });
-            $('#uno').css({
-                'margin-left': 200 - scroll
+            $('#storia').css({
+                left: (-scroll / 5)
             });
         }
-        if (scroll > 150) {
-            $('.dialog').css({
-                'opacity': scroll / 400
-            });
-        }
-        if (scroll > 500) {
-            $('#duea').css({
-                'opacity': scroll / 1000
-            });
-            $('#dueb').css({
-                'opacity': scroll / 2000
-            });
-        }
-        if (scroll > 7000) {
+        opacita('.dialog', scroll, 200);
+        opacita('#duea', scroll, 2800);
+        opacita('#dueb', scroll, 5000);
+        opacita('#tre', scroll, 10000);
+        opacita('#quattro', scroll, 15000);
+        opacita('#cinque', scroll, 20000);
+        opacita('#sei', scroll, 25000);
+        opacita('#sette', scroll, 27000);
+        opacita('.backstage', scroll, 28000);
+        if (scroll > 28400) {
             $('#storia').css({
                 position: 'static'
             });
         }
     })
 });
+/*
+$(document).ready(function () {
+    $(window).scroll(function () {
+        var posizione = $(window).scrollTop();
+        $('#landing').css({
+            'opacity': (100 - posizione) / 100
+        });
+    })
+});*/
