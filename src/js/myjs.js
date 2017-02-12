@@ -36,16 +36,30 @@ $(document).ready(function () {
                 left: (-scroll / 5)
             });
         }
-        opacita('.dialog', scroll, 200);
-        opacita('#duea', scroll, 2800);
-        opacita('#dueb', scroll, 5000);
-        opacita('#tre', scroll, 10000);
-        opacita('#quattro', scroll, 15000);
-        opacita('#cinque', scroll, 20000);
-        opacita('#sei', scroll, 25000);
-        opacita('#sette', scroll, 27000);
-        opacita('.backstage', scroll, 28000);
-        if (scroll > 28400) {
+        opacita('#0001', scroll, 200);
+        opacita('#0002', scroll, 400);
+        opacita('.duea', scroll, 1200);
+        opacita('#0003', scroll, 1600);
+        opacita('#0004', scroll, 2000);
+        opacita('.dueb', scroll, 3500);
+        opacita('#0005', scroll, 4000);
+        opacita('#0006', scroll, 4400);
+        opacita('.tre', scroll, 10000);
+        opacita('#0007', scroll, 11000);
+        opacita('.quattro', scroll, 13000);
+        opacita('#0008', scroll, 13400);
+        opacita('.cinque', scroll, 17800);
+        opacita('#0009', scroll, 19200);
+        opacita('.sei', scroll, 23400);
+        opacita('#0010', scroll, 24600);
+        opacita('#0011', scroll, 25600);
+        opacita('.sette', scroll, 26400);
+        opacita('#0012', scroll, 26800);
+        opacita('#0013', scroll, 27200);
+        opacita('#0014', scroll, 27600);
+        opacita('#0015', scroll, 28000);
+        opacita('.backstage', scroll, 28400);
+        if (scroll > 29300) {
             $('#storia').css({
                 position: 'static'
             });

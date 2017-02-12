@@ -169,6 +169,25 @@ img {
     width: 100%;
 }
 
+.progr {
+    background-color: #9f9f9f;
+    background-image: none;
+    position: relative;
+}
+
+.progr h1 {
+    color: #495a96;
+    color: #495a96;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 74%;
+}
+
 .progr img {
     width: 10%;
     margin-right: 2.8%;
@@ -183,20 +202,20 @@ img {
 }
 
 .persdue {
-    background-image: url(../img/pers/01fig.png);
+    background-image: url(../img/pers/01fig.gif);
 }
 
 .perstre {
-    background-image: url(../img/pers/02pad.png);
+    background-image: url(../img/pers/02pad.gif);
 }
 
 .storiaend {
-    height: 27500px;
+    height: 28350px;
 }
 
 article {
     margin-left: 60px;
-    background-color: #111e34;
+    background-color: black;
     float: left;
     height: 720px;
     width: 60vw;
@@ -226,6 +245,7 @@ p {
 }
 
 #uno {
+    background-color: #101b2f;
     background-image: url(../img/001.png);
 }
 
@@ -249,6 +269,7 @@ p {
 .dialog {
     background-color: #efe8d4;
     position: relative;
+    opacity: 0;
 }
 
 #uno .down-right {
@@ -266,10 +287,16 @@ p {
 }
 
 #duea {
-    opacity: 0;
     width: 30vw;
-    background-color: black;
+    opacity: 1;
+}
+
+.duea {
+    width: 30vw;
+    height: 720px;
     background-image: url(../img/002.png);
+    opacity: 0;
+    position: absolute;
 }
 
 #duea .dialog {
@@ -302,11 +329,17 @@ p {
 }
 
 #dueb {
-    opacity: 0;
+    opacity: 1;
     width: 30vw;
-    background-color: black;
+}
+
+.dueb {
+    width: 30vw;
+    height: 720px;
     background-image: url(../img/002.png);
     background-position: right;
+    opacity: 0;
+    position: absolute;
 }
 
 #dueb .dialog {
@@ -326,9 +359,15 @@ p {
 }
 
 #tre {
-    opacity: 0;
-    background-color: black;
+    opacity: 1;
+}
+
+.tre {
+    height: 720px;
     background-image: url(../img/003.png);
+    opacity: 0;
+    position: absolute;
+    width: 60vw;
 }
 
 #tre .dialog {
@@ -346,20 +385,34 @@ p {
 }
 
 #quattro {
-    opacity: 0;
-    background-color: black;
+    opacity: 1;
+    width: 30vw;
+}
+
+.quattro {
+    height: 720px;
     background-size: cover;
     background-position: bottom;
     background-image: url(../img/004.png);
+    opacity: 0;
+    position: absolute;
     width: 30vw;
 }
 
 #cinque {
-    opacity: 0;
-    background-image: url(../img/005.png);
+    opacity: 1;
     margin-top: 100px;
     height: 620px;
+}
+
+.cinque {
+    height: 620px;
+    background-image: url(../img/005.png);
     background-size: cover;
+    opacity: 0;
+    position: absolute;
+    top: 100;
+    width: 60vw;
 }
 
 #cinque .dialog {
@@ -373,11 +426,18 @@ p {
 }
 
 #sei {
-    opacity: 0;
+    opacity: 1;
+    height: 620px;
+    width: 30vw;
+}
+
+.sei {
+    height: 620px;
     background-image: url(../img/006.png);
     background-position: bottom center;
     background-size: 150%;
-    height: 620px;
+    opacity: 0;
+    position: absolute;
     width: 30vw;
 }
 
@@ -407,11 +467,19 @@ p {
 }
 
 #sette {
+    opacity: 1;
+    background-position: bottom center;
+    height: 550px;
+}
+
+.sette {
     opacity: 0;
     background-image: url(../img/007.png);
     background-size: cover;
     background-position: bottom center;
     height: 550px;
+    position: absolute;
+    width: 60vw;
 }
 
 #sette p {
@@ -434,6 +502,7 @@ p {
     left: 50%;
     color: black;
     z-index: +1;
+    opacity: 0;
 }
 
 .freccia {
@@ -458,6 +527,7 @@ p {
     right: 50%;
     color: black;
     z-index: +1;
+    opacity: 0;
 }
 
 .freccia2 {
@@ -485,6 +555,7 @@ p {
     right: 85%;
     color: black;
     z-index: +1;
+    opacity: 0;
 }
 
 .freccia3 {
@@ -510,6 +581,7 @@ p {
     left: 26%;
     color: black;
     z-index: +1;
+    opacity: 0;
 }
 
 .freccia4 {
@@ -535,6 +607,7 @@ p {
     right: 28%;
     color: black;
     z-index: +1;
+    opacity: 0;
 }
 
 .freccia5 {
@@ -560,6 +633,7 @@ p {
     right: 47%;
     color: black;
     z-index: +1;
+    opacity: 0;
 }
 
 .freccia6 {
