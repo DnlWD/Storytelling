@@ -16,8 +16,13 @@ html {
 }
 
 #landing {
+    position: fixed;
     z-index: +3;
     opacity: 1.0;
+}
+
+.scroll {
+    height: 100px;
 }
 
 h1 {
@@ -101,6 +106,7 @@ section {
 .backstage {
     background-color: #efe8d4;
     bottom: -100px;
+    opacity: 0;
 }
 
 .backstage .arrow-down {
@@ -233,6 +239,7 @@ p {
 }
 
 #uno .dialog {
+    opacity: 0;
     height: 55px;
     width: 60%;
 }
@@ -243,6 +250,7 @@ p {
 }
 
 #uno .down-right {
+    opacity: 0;
     height: 75px;
     width: 50%;
     position: absolute;
@@ -256,6 +264,7 @@ p {
 }
 
 #duea {
+    opacity: 0;
     width: 30vw;
     background-color: black;
     background-image: url(../img/002.png);
@@ -291,6 +300,7 @@ p {
 }
 
 #dueb {
+    opacity: 0;
     width: 30vw;
     background-color: black;
     background-image: url(../img/002.png);
@@ -314,6 +324,7 @@ p {
 }
 
 #tre {
+    opacity: 0;
     background-color: black;
     background-image: url(../img/003.png);
 }
@@ -333,6 +344,7 @@ p {
 }
 
 #quattro {
+    opacity: 0;
     background-color: black;
     background-size: cover;
     background-position: bottom;
@@ -341,6 +353,7 @@ p {
 }
 
 #cinque {
+    opacity: 0;
     background-image: url(../img/005.png);
     margin-top: 100px;
     height: 620px;
@@ -358,6 +371,7 @@ p {
 }
 
 #sei {
+    opacity: 0;
     background-image: url(../img/006.png);
     background-position: bottom center;
     background-size: 150%;
@@ -391,6 +405,7 @@ p {
 }
 
 #sette {
+    opacity: 0;
     background-image: url(../img/007.png);
     background-size: cover;
     background-position: bottom center;
